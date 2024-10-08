@@ -1,6 +1,6 @@
 # Welcome to Umar S. Pathan's Tech Universe 🌌
 
-![Banner](https://imgur.com/your-banner-image-url) <!-- You can replace this with your own banner URL -->
+![Banner](https://images.app.goo.gl/CdGeoYaBz34r2ikP8) <!-- You can replace this with your own banner URL -->
 
 ### 👋 Hello, Fellow Developers! 👨‍💻
 I am **Umar S. Pathan**, a young, passionate developer and student currently pursuing my education at **Diablo Valley College**. I'm an innovator, tech enthusiast, and AI explorer 🚀, and I love contributing to the world of **Open Source** and **Cloud Computing**.
@@ -87,11 +87,11 @@ I am deeply passionate about:
 
 LinkedIn: Connect Here
 
-Email: umarspathan@diablovalleycollege.edu
+Email: upathan983@insite.4cd.edu
 
 GitHub: Check My Repos
 
-Twitter: @yourtwitter
+Twitter: @umar.py
 
 
 
