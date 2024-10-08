@@ -1,133 +1,152 @@
-# Welcome to Umar S. Pathan's Tech Universe 🌌
+<!-- Advanced HTML GitHub Profile -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umar S. Pathan | Tech Innovator</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #0f0f0f;
+            color: #ffffff;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0;
+        }
+        .glitch {
+            font-size: 3.5em;
+            color: #f0f;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 0 red, -2px 0 blue; }
+            25% { text-shadow: -2px 0 red, 2px 0 blue; }
+            50% { text-shadow: 2px 0 blue, -2px 0 red; }
+            75% { text-shadow: -2px 0 blue, 2px 0 red; }
+        }
+        .sub-title {
+            font-size: 1.5em;
+            color: #ff6347;
+            margin-top: -10px;
+        }
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 5px solid #ff6347;
+            margin-top: 10px;
+        }
+        .icon {
+            height: 40px;
+            margin: 10px;
+            transition: transform 0.2s;
+        }
+        .icon:hover {
+            transform: scale(1.2);
+        }
+        .projects, .skills {
+            margin: 30px 0;
+        }
+        .projects h2, .skills h2 {
+            color: #ff6347;
+        }
+        a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .neon-button {
+            border: 2px solid #ff6347;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ff6347;
+            font-size: 1.2em;
+            border-radius: 10px;
+            margin-top: 20px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .neon-button:hover {
+            background-color: #ff6347;
+            color: white;
+        }
+        .fun-facts {
+            background-color: #191919;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .fun-facts h2 {
+            color: #00ffff;
+        }
+        .contact-me {
+            margin: 50px 0;
+            color: #ff6347;
+        }
+        .contact-me h2 {
+            font-size: 2em;
+        }
+        footer {
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
 
-![Banner](https://imgur.com/your-banner-image-url) <!-- You can replace this with your own banner URL -->
+    <h1 class="glitch">Umar S. Pathan</h1>
+    <p class="sub-title">Tech Innovator | AI Enthusiast | Blockchain Explorer</p>
 
-### 👋 Hello, Fellow Developers! 👨‍💻
-I am **Umar S. Pathan**, a young, passionate developer and student currently pursuing my education at **Diablo Valley College**. I'm an innovator, tech enthusiast, and AI explorer 🚀, and I love contributing to the world of **Open Source** and **Cloud Computing**.
+    <img src="https://imgur.com/your-profile-pic.jpg" alt="Profile Picture" class="profile-pic" />
 
----
+    <p>Student at Diablo Valley College | Student ID: 2158983</p>
+    <p><strong>Birth Date:</strong> 22/07/2007 | <strong>Gender:</strong> Male</p>
 
-## 👤 **Profile Overview**
-- **Student ID**: 2158983
-- **Gender**: Male 👦
-- **Birth Date**: 22/07/2007 🎂
-- **Current Year**: Freshman 📚
-- **Diablo Valley College Student** 🏫
-- **Valid Till**: 05/30
+    <section class="skills">
+        <h2>🛠️ Skills & Technologies</h2>
+        <p>
+            <img class="icon" src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
+            <img class="icon" src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript">
+            <img class="icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
+            <img class="icon" src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js">
+            <img class="icon" src="https://img.icons8.com/color/48/000000/github.png" alt="GitHub">
+            <img class="icon" src="https://img.icons8.com/color/48/000000/docker.png" alt="Docker">
+        </p>
+    </section>
 
----
+    <section class="projects">
+        <h2>🌍 My Projects</h2>
+        <ul>
+            <li>🚀 <a href="https://github.com/yourusername/ai-chatbot">AI Powered Chatbot</a> - Real-time AI conversational agent.</li>
+            <li>⛓️ <a href="https://github.com/yourusername/blockchain-student-verification">Blockchain for Students</a> - Secure identity verification using blockchain technology.</li>
+            <li>🔐 <a href="https://github.com/yourusername/cybersecure">CyberSecure</a> - Protect web apps from modern cyber threats.</li>
+        </ul>
+    </section>
 
-## 🎯 **My Focus Areas**
-> *“The best way to predict the future is to invent it.”* - **Alan Kay**
+    <a href="https://www.linkedin.com/in/yourlinkedinprofile" class="neon-button">💼 Connect on LinkedIn</a>
 
-I am deeply passionate about:
-- **Artificial Intelligence** 🤖
-- **Machine Learning** 🧠
-- **Web Development** 🌐
-- **Blockchain** ⛓️
-- **Data Science** 📊
-- **Cybersecurity** 🔐
+    <section class="fun-facts">
+        <h2>🤯 Fun Facts</h2>
+        <ul>
+            <li>I built my first robot at the age of 12 🤖</li>
+            <li>My dream is to become the youngest tech billionaire by 2030 💸</li>
+            <li>I can debug code for hours fueled only by coffee ☕</li>
+        </ul>
+    </section>
 
----
+    <section class="contact-me">
+        <h2>📞 Contact Me</h2>
+        <p>📧 Email: <a href="mailto:umarspathan@diablovalleycollege.edu">umarspathan@diablovalleycollege.edu</a></p>
+        <p>🐦 Twitter: <a href="https://twitter.com/yourusername">@yourusername</a></p>
+    </section>
 
-## 🛠️ **Languages and Tools**:
-```html
-<code><img height="30" src="https://img.icons8.com/color/48/000000/python.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/javascript.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/c-programming.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/react-native.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/html-5--v1.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/css3.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/git.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/linux.png"></code>
-<code><img height="30" src="https://img.icons8.com/color/48/000000/mysql.png"></code>
+    <footer>
+        <p>🔥 “The only way to do great work is to love what you do.” – Steve Jobs 🔥</p>
+        <p>Profile Views: <img src="https://komarev.com/ghpvc/?username=yourusername&color=brightgreen" alt="Profile Views"></p>
+    </footer>
 
-
----
-
-💡 Projects I'm Working On
-
-🚀 AI Powered Chatbot - A chatbot that uses AI to generate responses in real-time.
-
-🌍 Blockchain for Students - Building a blockchain solution for student identity verification.
-
-🔐 CyberSecure - Securing web applications from cyber threats.
-
-
-
----
-
-🔥 Quick Stats
-
-<img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide=stars" alt="Umar's GitHub Stats" />
----
-
-📊 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=gruvbox&row=2&column=3" />
-</p>
----
-
-🏆 Achievements
-
-🥇 Completed multiple AI research projects.
-
-🚀 Published contributions on Stack Overflow.
-
-🔥 Certified in AWS Cloud Computing and Data Science.
-
-💻 Hackathons: Participated in 4+ International Hackathons and won a few!
-
-
-
----
-
-✉️ Contact & Connect with Me
-
-LinkedIn: Connect Here
-
-Email: umarspathan@diablovalleycollege.edu
-
-GitHub: Check My Repos
-
-Twitter: @yourtwitter
-
-
-
----
-
-🏅 Fun Fact
-
-I built my first robot when I was 12, and it still roams around my room!
-
-
----
-
-⚡ Crazy Secret Hidden Section (Hover Here!)
-
-<details>
-  <summary>Click to Reveal My Secret Life! 🤯</summary>
-  - I can code for 10 hours straight with just coffee ☕
-  - I once debugged a problem for 6 hours straight!
-  - My spirit animal is a **hacker panda** 🐼
-  - I plan on becoming the youngest tech billionaire by 2030 💸
-</details>
----
-
-🚀 Join My Journey to the Future
-
-I'm on a mission to make the world a better place with code and AI. Let's connect and grow together!
-
-
-
-### Features and Enhancements:
-- **Fancy Stats and Trophies**: Dynamic GitHub stats and trophy showcase.
-- **HTML icons**: Eye-catching technology logos for the tools and languages.
-- **Fun hidden section**: A hover-to-reveal "secret" section.
-- **Connect links**: Easy access to your LinkedIn, Twitter, and other platforms.
-- **Profile views counter**: To track how many people visit your profile.
-- **Banner and theme**: Add a cool banner and GitHub theme for visual impact.
-
-This `README.md` is not only crazy and advanced but also highly personalized to showcase your skills, projects, and fun personality!
-
+</body>
+</html>
